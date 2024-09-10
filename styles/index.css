@@ -40,6 +40,11 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  #main_content h2 {
+    display: flex;
+    justify-content: center;
+  }
   
 
   main {
@@ -78,7 +83,7 @@ body {
     justify-content: space-evenly;
     
   }
-  
+
   footer {
     display: flex;
     justify-content: space-evenly;
