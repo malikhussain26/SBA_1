@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    align-content: space-between;
   }
   
   header {
@@ -46,9 +47,11 @@ body {
   footer {
     background-color: #a8dadc;
     padding: 20px;
+    position: relative;
   }
 
-  footer {
+  footer div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    ali
   }
