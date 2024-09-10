@@ -62,7 +62,7 @@ body {
     text-decoration: underline;
     transform: scale(1.1);
   }
-  /* can't get the animation//transtion to work, I want the card body to grow in size a bit when hovering over it on the mouse */
+
   .card-body {
     border: 1px solid #ccc;
     padding: 20px;
@@ -78,7 +78,7 @@ body {
     justify-content: space-evenly;
     
   }
-  /* Can't get these to work, I want the newsletter form on the left, and the social media icons on the right */
+  
   footer {
     display: flex;
     justify-content: space-evenly;

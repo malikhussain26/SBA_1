@@ -40,7 +40,7 @@ body {
     color: #fff;
     text-decoration: none;
   }
-/* could not get cheesecake image to move down to the center to be on the left side of the tab */
+
   #hero {
     margin-top: 20px;
   }
@@ -50,11 +50,13 @@ body {
     justify-content: center;
   }
 
-  div.ea-to-be-like-goku {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  /* had to pull this color changing animation from the internet */
+.goku h3 {
+    background-image: linear-gradient(to right, #ff0000, #00ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 
   footer {
     background-color: #a8dadc;
